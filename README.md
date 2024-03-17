@@ -1,6 +1,6 @@
 # 基于多模态检索的互联网图文匹配
 ## 运行环境
-Google Colabboratory
+Google Colaboratory
 
 LLaVa部分需要A100-40G，其余16G即可
 ## 背景
