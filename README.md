@@ -1,0 +1,2 @@
+# Multimodal_retrieval
+基于多模态检索的互联网图文匹配
