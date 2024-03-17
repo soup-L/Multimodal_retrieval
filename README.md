@@ -15,7 +15,7 @@ CLIP-Adapter(Tip-Adapter)：https://github.com/gaopengcuhk/Tip-Adapter
 - 样本选择：选择5个正样本，每个正样本对应易混淆的负样本，5个正样本中有2个和中国特色相关的词语描述。每个正负样本200张图，10个正负样本共2000张图片。
 ### 2. 项目流程：
 中英文CLIP图文匹配+多模态大模型LLaVA结果矫正
-1. 先用英文CLIP模型对图片以及文本标签进行匹配。
+1. 先用英文CLIP模型对图片以及文本标签进行匹配。  
 2. 设置对比实验：
 - 同时输入5个类别以计算相似度的方式来计算precision、recall和F1 score
 - 只用其中一个类别+其他类计算precision和recall和F1 Score
